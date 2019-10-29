@@ -5,17 +5,25 @@ number = int(input('Please enter a number '))
 divider = number
 
 # Creates a list of numbers for the output array
-list = []
+x = range(2,number+1)
 
-if divider > 0 :
-    var1 = number % divider
-    if var1 ==1:
-        list.append(divider)
-        divider = divider - 1
+list_a = []
+list_b = []
+
+for elem in x:
+    if number % elem > 0:
+        list_a.append
     else:
-        divider = divider - 1
-else:
-    print('Program finished')
+        list_b.append
 
-print(list)
+print(list_a)
+print(list_b)
 
+
+
+
+
+
+
+#for elem in x:
+#   print(elem)
